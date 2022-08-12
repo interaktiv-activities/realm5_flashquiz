@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>REALM 5 - Flash Quiz</title>
+<link rel="stylesheet" href="style.css" -->
+<script defer src="script.js"></script>
+<script defer src="animation.js"></script>
+<link rel="shortcut icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+	<section class="parallax" id="parallax">
+      	<image src="ANIMATION-ELEMENTS/title-img1.png" height="960" alt="" class="title-img-start layer"></image>
+		<br>
+		<input type="image" class="start-btn layer" src="ANIMATION-ELEMENTS/start-btn.png" height="719" alt="" onClick="startGame()"></button>
+		
+		<img src="ANIMATION-ELEMENTS/asset1.png" alt="" data-speed="7" class="layer sky" id="sky">
+		<img src="ANIMATION-ELEMENTS/asset2.png" alt="" data-speed="12" class="layer sky" id="sky">
+		<img src="ANIMATION-ELEMENTS/asset3.png" alt="" data-speed="-2" class="layer sky" id="sky">
+		<img src="ANIMATION-ELEMENTS/asset4.png" alt="" data-speed="-7" class="layer sky" id="sky">
+		<img src="ANIMATION-ELEMENTS/asset5.png" alt="" data-speed="8" class="layer sky" id="sky">
+		<img src="ANIMATION-ELEMENTS/asset6.png" alt="" data-speed="5" class="layer sky" id="sky">
+		<img src="ANIMATION-ELEMENTS/asset7.png" alt="" data-speed="-4" class="layer sky" id="sky">
+		<img src="ANIMATION-ELEMENTS/asset8.png" alt="" data-speed="-6" class="layer sky" id="sky">
+		<img src="ANIMATION-ELEMENTS/asset9.png" alt="" data-speed="7" class="layer sky" id="sky">
+		<img src="ANIMATION-ELEMENTS/asset10.png" alt="" data-speed="-5" class="layer sky" id="sky">
+		<img src="ANIMATION-ELEMENTS/asset11.png" alt="" data-speed="1" class="layer sky" id="sky">
+		<img src="ANIMATION-ELEMENTS/asset12.png" alt="" data-speed="-5" class="layer sky" id="sky">
+    </section>
+	
+	<div class="container">
+		
+		<img class="pass-msg hide" id="pass-msg" src="ASSETS/pass-msg1.png" height="491" alt=""/>
+		<img class="fail-msg hide" id="fail-msg" src="ASSETS/fail-msg1.png" height="840" alt=""/>
+		<img class="title hide" id="title" src="ASSETS/realm 5 title-sign.png" height="69" alt=""/>
+		
+		
+<div clas="counter">
+	  <span id="right-answers" class="hide hide-end"></span>
+	</div>
+		
+	  <div id="question-container" class="hide">
+            <div id="score-display" class="score-display">SCORE: 0</div>
+            <div id="questions" class="questions">Question</div>
+            <div id="answer-btn" class="btn-grid">
+            	<button class="answer-btn btn">Answer 1</button>
+                <button class="answer-btn btn">Answer 2</button>
+                <button class="answer-btn btn">Answer 3</button>
+                <button class="answer-btn btn">Answer 4</button>
+            </div>
+		</div>
+		
+	  <div class="controls">
+		<div class="start-scr">
+		  <button class="next-btn ctr-btn hide" id="next-btn">NEXT</button>
+		  <button class="menu-btn ctr-btn hide" id="menu-btn" onClick="window.location.href='https://interaktiv.benilde.edu.ph/?page_id=7881';">BACK TO MENU</button>
+		</div>
+	  </div>
+		
+	</div>
+</body>
+</html>
